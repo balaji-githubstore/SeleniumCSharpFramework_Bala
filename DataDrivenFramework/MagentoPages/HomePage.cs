@@ -11,7 +11,6 @@ namespace Trianz.MagentoPages
     {
         private By myAccLoc = By.LinkText("My Account");
         private IWebDriver driver;
-
         public HomePage(IWebDriver driver)
         {
            this.driver = driver;
